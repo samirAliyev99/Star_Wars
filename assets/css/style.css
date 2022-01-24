@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    font-size: larger;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/star_wars_xwing.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+}
+header{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+}
+img{
+    height: 100px;
+    object-fit: fill;
+}
+
+.key{
+    display: inline-block;
+    border: green 2px solid;
+    background-color: white;
+    padding: 0 13px;
+    text-align: center;
+    cursor: pointer;
+}
+.key>p{
+   font-size: xx-small;
+}
+label{
+    font-size: 20px;
+    display: block;
+}
+button
+{
+    display: block;
+}
